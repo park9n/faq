@@ -10,6 +10,7 @@
 
 #### Q) How do I extract submodule from existing project?
 - https://github.blog/2016-02-01-working-with-submodules/
+- https://git-scm.com/book/id/v2/Git-Tools-Submodules
 - https://stackoverflow.com/questions/6031494/git-submodules-and-ssh-access
 
 #### Q) How do I diff visually?
