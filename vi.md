@@ -1,4 +1,4 @@
-#### Q. How do I configure ~/.vimrc?
+#### Q) How do I configure ~/.vimrc?
 ```
 set autoindent
 filetype plugin indent on
@@ -13,5 +13,8 @@ set tabstop=4
 syntax on
 ```
 
-#### Q. How do I fix indentation?
+#### Q) How do I fix indentation?
 - `gg=G`: https://stackoverflow.com/questions/506075/how-do-i-fix-the-indentation-of-an-entire-file-in-vi
+
+#### Q) Shoud I learn vi now?
+https://www.tecmint.com/reasons-to-learn-vi-vim-editor-in-linux/
