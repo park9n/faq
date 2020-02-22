@@ -8,4 +8,4 @@
 
 **Q. What is different between `-pthread` and `-lpthread`?**
 
-https://stackoverflow.com/questions/23250863/difference-between-pthread-and-lpthread-while-compiling
+- Just use `-pthread`: https://stackoverflow.com/questions/23250863/difference-between-pthread-and-lpthread-while-compiling
