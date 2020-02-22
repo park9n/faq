@@ -14,3 +14,6 @@ $ dpkg-query -L libgtest-dev
 - Download: https://code.visualstudio.com/
 - Install: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
 - Execute: `$ code`
+
+**Q. What is POSIX?**
+- What is Linux? Unix? POSIX?: https://youtu.be/hy4OeVCLGZ4
