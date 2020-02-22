@@ -4,8 +4,8 @@
 
 **Q. What is different between gcc and g++?**
 
-- https://stackoverflow.com/questions/172587/what-is-the-difference-between-g-and-gcc
+- Need to use g++ for gtest: https://stackoverflow.com/questions/172587/what-is-the-difference-between-g-and-gcc
 
 **Q. What is different between `-pthread` and `-lpthread`?**
 
-- Just use `-pthread`: https://stackoverflow.com/questions/23250863/difference-between-pthread-and-lpthread-while-compiling
+- Just use `-pthread` for gtest: https://stackoverflow.com/questions/23250863/difference-between-pthread-and-lpthread-while-compiling
