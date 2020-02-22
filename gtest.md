@@ -3,6 +3,7 @@ Q. How could I set-up?
 - Link
 ```
 $ sudo ln -s ~/git/googletest/googletest/include/gtest /usr/local/include/gtest
+$ sudo ln -s ~/git/googletest/googlemock/include/gmock /usr/local/include/gmock
 $ sudo ln -s ~/git/googletest/mybuild/lib/libgtest.a /usr/local/lib/libgtest.a
 $ sudo ln -s ~/git/googletest/mybuild/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
 $ sudo ln -s ~/git/googletest/mybuild/lib/libgmock.a /usr/local/lib/libgmock.a
