@@ -6,3 +6,7 @@
 
 - https://stackoverflow.com/questions/43665836/in-git-what-is-the-difference-between-long-and-short-hashes
 - Long hash is checksum of hex of length 40, using SHA-1 hash function
+
+**Q. How can I skip log-in when `git push`?**
+
+- Switch remote URL from HTTPS to SSH: https://help.github.com/en/github/using-git/changing-a-remotes-url
