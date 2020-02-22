@@ -16,5 +16,8 @@ syntax on
 #### Q) How do I fix indentation?
 - `gg=G`: https://stackoverflow.com/questions/506075/how-do-i-fix-the-indentation-of-an-entire-file-in-vi
 
-#### Q) Shoud I learn vi now?
+#### Q) Should I learn vi now?
 https://www.tecmint.com/reasons-to-learn-vi-vim-editor-in-linux/
+
+#### Q) How do I split window?
+TBD
