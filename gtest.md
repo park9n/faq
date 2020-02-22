@@ -10,12 +10,12 @@ $ sudo ln -s ~/git/googletest/mybuild/lib/libgmock_main.a /usr/local/lib/libgmoc
 ```
 - Configure Makefile
 ```
-GOOGLE_TEST_INCLUDE = /usr/local/include
-GOOGLE_TEST_LIB = gtest
+GTEST_INCLUDE = /usr/local/include
+GTEST_LIB = gtest
 
-CXX = g++
-CXXFLAGS = -std=c++11 -c -Wall -I $(GOOGLE_TEST_INCLUDE)
-LD_FLAGS = -L /usr/local/lib -l $(GOOGLE_TEST_LIB) -l pthread
+CXX = g++ 
+CXXFLAGS = -std=c++11 -c -Wall
+LD_FLAGS = -l$(GTEST_LIB) -pthread
 
 OBJECTS = test.o
 TARGET = fizzbuzz
@@ -26,10 +26,10 @@ $(TARGET): $(OBJECTS)
     $(CXX) -o $(TARGET) $(OBJECTS) $(LD_FLAGS)
 
 %.o: %.cpp
-    $(CXX) $(G++_FLAGS) $<
+    $(CXX) $(CXXFLAGS) $<
 
 clean:
     rm -f $(TARGET) $(OBJECTS)
-
+    
 .PHONY: all clean
 ```
