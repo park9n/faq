@@ -7,3 +7,6 @@
 
 #### Q. How do I skip log-in when `git push`?
 - Switch remote URL from HTTPS to SSH: https://help.github.com/en/github/using-git/changing-a-remotes-url
+
+#### Q. How do I extract submodule from existing project?
+- https://github.blog/2016-02-01-working-with-submodules/
