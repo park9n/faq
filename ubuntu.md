@@ -8,3 +8,9 @@ $ dpkg-query -L libgtest-dev
 **Q. Where is desktop launcher (icon)?**
 
 `~/.local/share/applications/jetbrains-idea-ce.desktop`
+
+**Q. How do I install Visual Studio Code?**
+
+- Download: https://code.visualstudio.com/
+- Install: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
+- Execute: `$ code`
