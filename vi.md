@@ -13,5 +13,5 @@ set tabstop=4
 syntax on
 ```
 
-#### Q. How could I fix indentation?
-- https://stackoverflow.com/questions/506075/how-do-i-fix-the-indentation-of-an-entire-file-in-vi
+#### Q. How do I fix indentation?
+- `gg=G`: https://stackoverflow.com/questions/506075/how-do-i-fix-the-indentation-of-an-entire-file-in-vi
