@@ -6,3 +6,5 @@
   - https://stackoverflow.com/questions/4203009/c-initialization-of-pointers-asterisk-position
   - https://google.github.io/styleguide/cppguide.html#Pointer_and_Reference_Expressions
 - `switch`: https://stackoverflow.com/questions/3005797/what-is-the-preferred-way-to-indent-cases-in-a-switch
+- `#ifndef`: https://google.github.io/styleguide/cppguide.html#The__define_Guard
+  - https://stackoverflow.com/questions/14526153/multiple-definition-of-a-global-variable
