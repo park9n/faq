@@ -6,4 +6,5 @@
 TBD
 
 #### Q) Can I use formatter?
-TBD
+- https://code.visualstudio.com/docs/editor/codebasics#_formatting
+- Change style: https://stackoverflow.com/questions/45823734/vs-code-formatting-for
