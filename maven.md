@@ -1,4 +1,6 @@
-#### Q) What should I read first?
+## Category
+
+### What should I read first?
 - http://maven.apache.org/guides/getting-started/index.html
 - http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 - http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
