@@ -1,4 +1,6 @@
-#### Q) What style do I use?
+## Category
+
+### What style do I use?
 - TBD:
   - Allman style for indentation: https://en.wikipedia.org/wiki/Indentation_style#Allman_style
   - Google: https://google.github.io/styleguide/cppguide.html#Function_Declarations_and_Definitions
