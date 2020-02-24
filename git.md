@@ -1,5 +1,13 @@
 ## Category
 
+### What commands do I remember?
+```
+$ git remote -v
+$ git fetch -p --all
+$ git status
+$ git branch -avv
+```
+
 ### How do I change default editor into vim?
 `$ git config --global core.editor "vim"`
 
