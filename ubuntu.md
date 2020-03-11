@@ -17,3 +17,11 @@ $ dpkg-query -L libgtest-dev
 
 ### What is POSIX?
 - What is Linux? Unix? POSIX?: https://youtu.be/hy4OeVCLGZ4
+
+### How do I change directories of `ls` from bold text to normal?
+`LS_COLORS="di=00;34"`
+- https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/
+
+### How do I enter Hangul?
+
+### How do I install .deb?
