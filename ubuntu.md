@@ -24,7 +24,19 @@ $ dpkg-query -L libgtest-dev
 - https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/
 
 ### How do I enter Hangul?
-- https://blog.neonkid.xyz/106
+- System Settings > Language Support
+  - Language for menus and windows: 4 "English"s and "한국어"
+  - Keyboard input method system: "IBus"
+
+![image](https://user-images.githubusercontent.com/28881330/76437954-af786480-63fd-11ea-8681-748a60a581e9.png)
+
+- System Settings > Text Entry > Add "Korean (Hangul) (IBus)"
+
+![image](https://user-images.githubusercontent.com/28881330/76438572-80162780-63fe-11ea-9877-647d61938001.png)
+
+- Change into Hangul: Ctrl+Space
+- Toggle: Shift+Space
+- https://selfish-developer.com/entry/%EC%9A%B0%EB%B6%84%ED%88%AC-1604-%ED%95%9C%EA%B8%80-%EC%9E%85%EB%A0%A5%ED%95%98%EA%B8%B0
 
 ### How do I install .deb?
 `sudo apt install DEB_PACKAGE`
