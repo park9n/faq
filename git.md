@@ -28,3 +28,7 @@ $ git branch -avv
 
 ### How do I use short commands?
 - https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
+- Not possible to use same verb: https://stackoverflow.com/questions/5916565/define-git-alias-with-the-same-name-to-shadow-original-command/16410521
+
+### Where is configuration file?
+`~/.gitconfig`: https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
