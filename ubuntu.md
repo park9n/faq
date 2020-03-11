@@ -9,6 +9,7 @@ $ dpkg-query -L libgtest-dev
 
 ### Where is desktop launcher (icon)?
 `~/.local/share/applications/jetbrains-idea-ce.desktop`
+- https://askubuntu.com/questions/537717/how-to-append-arguments-to-launch-an-application-with-specific-parameters-from-u
 
 ### How do I install Visual Studio Code?
 - Download: https://code.visualstudio.com/
@@ -23,5 +24,16 @@ $ dpkg-query -L libgtest-dev
 - https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/
 
 ### How do I enter Hangul?
+- https://blog.neonkid.xyz/106
 
 ### How do I install .deb?
+`sudo apt install DEB_PACKAGE`
+- https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt
+- https://askubuntu.com/questions/40779/how-do-i-install-a-deb-file-via-the-command-line
+- https://vitux.com/3-ways-to-install-software-from-deb-packages-in-ubuntu/
+
+### How do I search previous commands?
+`Ctrl+R` or `history`
+- https://www.howtogeek.com/howto/44997/how-to-use-bash-history-to-improve-your-command-line-productivity/
+- https://www.rootusers.com/17-bash-history-command-examples-in-linux/
+- https://askubuntu.com/questions/1029850/why-is-history-and-bash-history-different-and-how-to-delete-an-entry-in-history
