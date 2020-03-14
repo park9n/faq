@@ -3,3 +3,6 @@
 - https://www.jetbrains.com/help/idea/configuring-code-coverage-measurement.html
 
 ![image](https://user-images.githubusercontent.com/28881330/75348413-22ee8200-58e6-11ea-81ef-3c4ec265d021.png)
+
+### How do I refer to the definition?
+- https://www.jetbrains.com/help/idea/viewing-reference-information.html
