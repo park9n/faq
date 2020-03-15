@@ -1,6 +1,6 @@
 ## Category
 
-### What commands do I remember?
+### What commands do I execute every morning?
 ```
 $ git remote -v
 $ git fetch -p --all
@@ -32,3 +32,18 @@ $ git branch -avv
 
 ### Where is configuration file?
 `~/.gitconfig`: https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+### What is HEAD?
+HEAD is a reference to the last commit in the currently check-out branch. You can think of the HEAD as the "current branch". When you switch branches with git checkout, the HEAD revision changes to point to the tip of the new branch.
+- http://researchhubs.com/post/computing/git/what-is-HEAD-in-git.html
+
+### How do I create new branch from another branch?
+`git checkout -b <new_branch> [<start point>]`
+- https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt-emgitcheckoutem-b-Bltnewbranchgtltstartpointgt
+
+### How do I see log?
+`git log --decorate --oneline --graph`
+
+### Does `git log` show another branch's latest commit?
+No, `git log` shows log until the current branch's HEAD if you don't add `--all` or `--branches`.
+- https://git-scm.com/docs/git-log#Documentation/git-log.txt---all
