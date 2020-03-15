@@ -13,4 +13,5 @@
 - Settings > Editor > General > Other > Ensure line feed at file end on Save
 
 ### How do I reformat code automatically on save?
-- https://stackoverflow.com/questions/946993/intellij-reformat-on-file-save
+- Settings > Keymap > Search "Save All" > Remove Ctrl+S
+- Settings > Keymap > Search "Reformat Code" > Add Keyboard Shortcut > Ctrl+S
