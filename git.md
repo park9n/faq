@@ -47,3 +47,6 @@ HEAD is a reference to the last commit in the currently check-out branch. You ca
 ### Does `git log` show another branch's latest commit?
 No, `git log` shows log until the current branch's HEAD if you don't add `--all` or `--branches`.
 - https://git-scm.com/docs/git-log#Documentation/git-log.txt---all
+
+### How do I duplicate a repository?
+- https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository
