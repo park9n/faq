@@ -108,5 +108,10 @@ $ apt list --installed "*chrome*"
 https://www.cyberciti.biz/faq/apt-get-list-packages-are-installed-on-ubuntu-linux/
 
 ### How do I see file list of a package?
-`$ dpkg-query -L <package_name>`
+```
+$ dpkg-query -L chromium-browser (for installed only)
+or
+$ apt-cache search "*chrome*"
+$ dpkg --listfiles chromium-browser
+```
 https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package
