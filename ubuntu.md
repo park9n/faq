@@ -49,3 +49,64 @@ $ dpkg-query -L libgtest-dev
 - https://www.howtogeek.com/howto/44997/how-to-use-bash-history-to-improve-your-command-line-productivity/
 - https://www.rootusers.com/17-bash-history-command-examples-in-linux/
 - https://askubuntu.com/questions/1029850/why-is-history-and-bash-history-different-and-how-to-delete-an-entry-in-history
+
+### How do I set `gedit` launcher as executing `gedit /home/cspark/note.txt`?
+Modify `~/.local/share/applications/gedit.desktop` as below.
+```
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=gedit
+Icon=gedit.png
+Exec=gedit /home/cspark/note.txt
+StartupNotify=false
+StartupWMClass=Gedit
+OnlyShowIn=Unity;
+X-UnityGenerated=true
+```
+If you can't find `~/.local/share/applications/gedit.desktop` although you locked `gedit` to launcher, then copy `/usr/share/applications/org.gnome.gedit.desktop` into `~/.local/share/applications` and modify it as below (https://ubuntuforums.org/showthread.php?t=2359629).
+```[Desktop Entry]
+Name=gedit
+GenericName=Text Editor
+Comment=Edit text files
+Exec=gedit /home/cspark/note.txt
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+Icon=accessories-text-editor
+Categories=GNOME;GTK;Utility;TextEditor;
+X-GNOME-DocPath=gedit/gedit.xml
+X-GNOME-FullName=Text Editor
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gedit
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.18.3
+X-GNOME-Bugzilla-ExtraInfoScript=/usr/share/gedit/gedit-bugreport
+Actions=new-window;new-document;
+Keywords=Text;Editor;Plaintext;Write;
+DBusActivatable=false
+X-Ubuntu-Gettext-Domain=gedit
+
+NoDisplay=true
+
+[Desktop Action new-window]
+Name=Open a New Window
+Exec=gedit --new-window
+
+[Desktop Action new-document]
+Name=Open a New Document
+Exec=gedit --new-document
+```
+
+### How do I see installed packages?
+```
+$ apt list --installed
+$ apt list --installed "*chrome*"
+```
+https://www.cyberciti.biz/faq/apt-get-list-packages-are-installed-on-ubuntu-linux/
+
+### How do I see file list of a package?
+`$ dpkg-query -L <package_name>`
+https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package
