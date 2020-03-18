@@ -29,3 +29,9 @@ https://www.tecmint.com/reasons-to-learn-vi-vim-editor-in-linux/
 
 ### How do I split window?
 - `:split`, `:vsplit` - http://vimdoc.sourceforge.net/htmldoc/usr_08.html
+
+### What is this window?
+![image](https://user-images.githubusercontent.com/28881330/76966857-f02a2d80-6969-11ea-8f9d-c6ace9893929.png)
+
+This is command-line window that opens when I enter `q:` by mistake.
+- https://vim.fandom.com/wiki/Using_command-line_history
