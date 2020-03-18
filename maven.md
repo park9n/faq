@@ -9,5 +9,5 @@
 - https://stackoverflow.com/questions/30166698/difference-between-intellij-project-make-and-maven-compile
 
 ### What is `maven-antrun-plugin` and when I use it?
-https://maven.apache.org/plugins/maven-antrun-plugin/
-https://www.geoffhayward.eu/2018/10/maven-packaging-dockerfiles-with-variables
+- https://maven.apache.org/plugins/maven-antrun-plugin/
+- https://www.geoffhayward.eu/2018/10/maven-packaging-dockerfiles-with-variables
