@@ -20,3 +20,12 @@ PowerMockito is a PowerMock's extension API to support Mockito.
 The Mockito library is shipped with a BDDMockito class which introduces BDD-friendly APIs.
 This API allows us to take a more BDD friendly approach arranging our tests using `given()` and making assertions using `then()`.
 - https://www.baeldung.com/bdd-mockito
+
+### How do I mock for final class?
+- https://www.baeldung.com/mockito-final
+
+### What is different between mock, stub and spy?
+- https://martinfowler.com/articles/mocksArentStubs.html
+
+### How do I mock for new class?
+- https://stackoverflow.com/questions/5920153/test-class-with-a-new-call-in-it-with-mockito
