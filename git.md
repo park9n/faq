@@ -53,3 +53,6 @@ No, `git log` shows log until the current branch's HEAD if you don't add `--all`
 
 ### How do I check merged branch?
 `git branch --merged`: https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
+
+### Can I merge branch-a into branch-b on branch-c without checkout branch-b?
+Impossible (because a working copy is needed to resolve any potential conflicts): https://stackoverflow.com/questions/3216360/merge-update-and-pull-git-branches-without-using-checkouts
