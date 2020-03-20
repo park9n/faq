@@ -115,3 +115,14 @@ $ apt-cache search "*chrome*"
 $ dpkg --listfiles chromium-browser
 ```
 https://askubuntu.com/questions/32507/how-do-i-get-a-list-of-installed-files-from-a-package
+
+### What should I do if I entered Ctrl+S by mistake and the terminal freezed?
+Type `Ctrl+Q`.
+- https://unix.stackexchange.com/questions/12107/how-to-unfreeze-after-accidentally-pressing-ctrl-s-in-a-terminal
+- https://www.networkworld.com/article/3438818/how-to-freeze-and-lock-your-linux-system-and-why-you-would-want-to.html
+
+### What is `awk`, `sed` and `xargs`?
+- `awk`: typically used as a data extraction and reporting tool. (https://en.wikipedia.org/wiki/AWK)
+- `sed`: parses and transforms text. (https://en.wikipedia.org/wiki/Sed)
+- `awk` vs. `sed`: Use sed for very simple text parsing. Anything beyond that, awk is better. (https://stackoverflow.com/questions/1632113/what-is-the-difference-between-sed-and-awk)
+- `xargs`: converts input from standard input into arguments to a command. (https://en.wikipedia.org/wiki/Xargs)
