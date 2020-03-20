@@ -50,3 +50,6 @@ No, `git log` shows log until the current branch's HEAD if you don't add `--all`
 
 ### How do I duplicate a repository?
 - https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository
+
+### How do I check merged branch?
+`git branch --merged`: https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
