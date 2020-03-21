@@ -11,3 +11,7 @@
 ### What is `maven-antrun-plugin` and when I use it?
 - https://maven.apache.org/plugins/maven-antrun-plugin/
 - https://www.geoffhayward.eu/2018/10/maven-packaging-dockerfiles-with-variables
+
+### How do I select dependency version?
+The Versions Maven Plugin is the de facto standard way to handle versions management nowadays.
+- https://www.baeldung.com/maven-dependency-latest-version
