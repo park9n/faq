@@ -25,7 +25,8 @@ This API allows us to take a more BDD friendly approach arranging our tests usin
 - https://www.baeldung.com/mockito-final
 
 ### What is different between mock, stub and spy?
-- https://martinfowler.com/articles/mocksArentStubs.html
+- There is a difference in that the stub uses state verification while the mock uses behavior verification. Meszaros refers to stubs that use behavior verification as a Test Spy: https://martinfowler.com/articles/mocksArentStubs.html
+- When you use the spy then the real methods are called (unless a method was stubbed). Real spies should be used carefully and occasionally, for example when dealing with legacy code: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#spy
 
 ### How do I mock for new class?
 - https://stackoverflow.com/questions/5920153/test-class-with-a-new-call-in-it-with-mockito
