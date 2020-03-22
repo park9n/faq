@@ -6,8 +6,62 @@
 - https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
 
 ### What is different between PowerMock and PowerMockito?
-PowerMockito is a PowerMock's extension API to support Mockito.
+PowerMockito is a PowerMock's extension API to support Mockito. To use PowerMock you need to depend on Mockito + PowerMockito (or EasyMock + PowerMock) as well as a test framework. JUnit 4.x not 5.x is required to use PowerMock.
 - https://www.baeldung.com/intro-to-powermock
+- https://github.com/powermock/powermock/wiki/Getting-Started
+```
+<dependency>
+    <groupId>org.powermock</groupId>
+    <artifactId>powermock-module-junit4</artifactId>
+    <version>${powermock.version}</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.powermock</groupId>
+    <artifactId>powermock-api-mockito2</artifactId>
+    <version>${powermock.version}</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-core</artifactId>
+    <version>3.3.3</version>
+</dependency>
+
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.junit.vintage</groupId>
+    <artifactId>junit-vintage-engine</artifactId>
+    <version>5.6.0</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest</artifactId>
+    <version>2.2</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.6.0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.6.0</version>
+    <scope>test</scope>
+</dependency>
+```
 
 ### How do I mock for static class?
 - https://www.baeldung.com/intro-to-powermock#methods
