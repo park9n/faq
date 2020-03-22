@@ -39,3 +39,9 @@ There are three different ways of creating mock objects.
 ### What does it mean that "Warning: it is recommended to use ArgumentCaptor with verification but not with stubbing." in https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#15?
 Just use matcher during stubbing. But verification is a different story. If your test needs to ensure that this method was called with a specific argument, use ArgumentCaptor and this is the case for which it is designed.
 - https://stackoverflow.com/questions/12295891/how-to-use-argumentcaptor-for-stubbing
+
+### What is @InjectMocks?
+- https://www.baeldung.com/mockito-annotations#injectmocks-annotation
+- https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#21
+- https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/InjectMocks.html
+- https://stackoverflow.com/questions/33397643/manually-instantiating-the-injectmock-annotated-field
