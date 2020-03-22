@@ -67,3 +67,4 @@ Main-Class: com.samsung.tcm.tca.standalone.Main
 ```
 Please add `<addDefaultImplementationEntries>true</addDefaultImplementationEntries>` into POM to save `Implementation-Version` into META-INF/MANIFEST.MF referring to the example for maven-assembly-plugin above.
 - https://stackoverflow.com/questions/3697449/retrieve-version-from-maven-pom-xml-in-code/41791885
+- https://github.com/remkop/picocli/issues/236
