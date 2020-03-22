@@ -144,3 +144,8 @@ public void testMain() {
 - http://buckybits.blogspot.com/2011/11/testing-singletons-and-static-classes.html
 - https://www.baeldung.com/intro-to-powermock
 - https://github.com/powermock/powermock/wiki/mockito#mocking-static-method
+
+### How do I mock File?
+Possible with PowerMock. But please don't do that.
+- https://stackoverflow.com/questions/17681708/mocking-files-in-java-mock-contents-mockito
+- https://stackoverflow.com/questions/16035365/is-it-possible-to-use-powermock-to-mock-new-file-creation
