@@ -24,3 +24,8 @@ Yes, anonymous classes can implement interfaces.
 ### What is difference between `InputStreamReader`, `FileReader` and `BufferedReader`?
 - https://www.baeldung.com/java-filereader
 - https://www.baeldung.com/java-buffered-reader
+
+### What is lambda?
+https://medium.com/@tu7a1k23/what-is-lambda-expressions-and-how-is-it-used-in-java-2c687a161682
+https://medium.com/@wkrzywiec/what-was-added-to-java-8-lambda-expressions-7b2735efb287
+http://tutorials.jenkov.com/java/lambda-expressions.html
