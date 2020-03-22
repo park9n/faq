@@ -15,3 +15,7 @@
 
 ### How do I configure JUnit 5 for Maven?
 - https://junit.org/junit5/docs/snapshot/user-guide/#running-tests-build-maven
+
+### Where do I refer to matchers?
+- http://hamcrest.org/JavaHamcrest/tutorial
+- http://hamcrest.org/JavaHamcrest/javadoc/2.2/
