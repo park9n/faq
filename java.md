@@ -32,3 +32,4 @@ http://tutorials.jenkov.com/java/lambda-expressions.html
 
 ### What do I setup logger?
 - https://www.baeldung.com/logback
+- http://www.slf4j.org/manual.html
