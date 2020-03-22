@@ -135,7 +135,7 @@ public void testMain() {
 - JUnit 4: https://stefanbirkner.github.io/system-rules/
 - https://stackoverflow.com/questions/309396/java-how-to-test-methods-that-call-system-exit
 
-### What do I write `@PrepareForTest()` for PowerMock?
+### What do I add into `@PrepareForTest()` for PowerMock?
 - https://stackoverflow.com/questions/56430071/what-does-preparefortest-in-powermock-really-mean
 - https://javadoc.io/doc/org.powermock/powermock-core/1.6.5/org/powermock/core/classloader/annotations/PrepareForTest.html
 - https://www.baeldung.com/intro-to-powermock
