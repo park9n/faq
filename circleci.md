@@ -1,6 +1,6 @@
 ## Category
 
-### What is different between job and workspace?
+### What is difference between job and workspace?
 If you are not using workflows, the jobs map must contain a job named build.
 This build job is the default entry-point for a run that is triggered by a push to your VCS provider.
 It is possible to then specify additional jobs and run them using the CircleCI API.
