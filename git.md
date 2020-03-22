@@ -11,7 +11,7 @@ $ git branch -avv
 ### How do I change default editor into vim?
 `$ git config --global core.editor "vim"`
 
-### What is different between long and short hashes?
+### What is difference between long and short hashes?
 - https://stackoverflow.com/questions/43665836/in-git-what-is-the-difference-between-long-and-short-hashes
 - Long hash is checksum of hex of length 40 using SHA-1 hash function
 
@@ -36,6 +36,7 @@ $ git branch -avv
 ### What is HEAD?
 HEAD is a reference to the last commit in the currently check-out branch. You can think of the HEAD as the "current branch". When you switch branches with git checkout, the HEAD revision changes to point to the tip of the new branch.
 - http://researchhubs.com/post/computing/git/what-is-HEAD-in-git.html
+- https://stackoverflow.com/questions/354312/why-is-origin-head-shown-when-running-git-branch-r
 
 ### How do I create new branch from another branch?
 `git checkout -b <new_branch> [<start point>]`
