@@ -89,6 +89,7 @@ This API allows us to take a more BDD friendly approach arranging our tests usin
 - https://stackoverflow.com/questions/5920153/test-class-with-a-new-call-in-it-with-mockito
 - https://stackoverflow.com/questions/48783661/how-to-mock-methods-local-variables-variable-methods-using-mockito
 - https://stackoverflow.com/questions/20671008/what-is-the-difference-between-a-local-variable-an-instance-field-an-input-par
+- https://github.com/powermock/powermock/wiki/MockConstructor
 
 ### What is different between `Mockito.mock()` and `@Mock`?
 There are three different ways of creating mock objects.
