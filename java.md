@@ -15,3 +15,8 @@ Serialization (or serialisation) is the process of translating data structures o
 ### Can I create an instance of interface?
 Yes, anonymous classes can implement interfaces.
 - https://stackoverflow.com/questions/4587392/can-we-create-an-instance-of-an-interface-in-java
+
+### When do I initialize field?
+- https://stackoverflow.com/questions/4916735/default-constructor-vs-inline-field-initialization
+- https://stackoverflow.com/questions/35421411/java-constructor-vs-inline-field-initialisation
+- https://www.baeldung.com/java-initialization
