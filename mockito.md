@@ -4,8 +4,6 @@
 - https://www.baeldung.com/mockito-series
 - https://site.mockito.org/
 - https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
-- https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/BDDMockito.html
-- https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/ArgumentMatchers.html
 
 ### What is different between PowerMock and PowerMockito?
 PowerMockito is a PowerMock's extension API to support Mockito. To use PowerMock you need to depend on Mockito + PowerMockito (or EasyMock + PowerMock) as well as a test framework. JUnit 4.x not 5.x is required to use PowerMock.
@@ -75,7 +73,10 @@ PowerMockito is a PowerMock's extension API to support Mockito. To use PowerMock
 ### What is BDDMockito?
 The Mockito library is shipped with a BDDMockito class which introduces BDD-friendly APIs.
 This API allows us to take a more BDD friendly approach arranging our tests using `given()` and making assertions using `then()`.
+- `when/then` → `given/will`
+- `verify` → `then`
 - https://www.baeldung.com/bdd-mockito
+- https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/BDDMockito.html
 
 ### How do I mock for final class?
 - https://www.baeldung.com/mockito-final
@@ -104,3 +105,7 @@ Inject mock or spy fields into tested object automatically.
 - https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#21
 - https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/InjectMocks.html
 - https://stackoverflow.com/questions/33397643/manually-instantiating-the-injectmock-annotated-field
+
+### Where do I refer to 
+- https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/ArgumentMatchers.html
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/AdditionalMatchers.html
