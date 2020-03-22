@@ -30,6 +30,8 @@ This API allows us to take a more BDD friendly approach arranging our tests usin
 
 ### How do I mock for new class?
 - https://stackoverflow.com/questions/5920153/test-class-with-a-new-call-in-it-with-mockito
+- https://stackoverflow.com/questions/48783661/how-to-mock-methods-local-variables-variable-methods-using-mockito
+- https://stackoverflow.com/questions/20671008/what-is-the-difference-between-a-local-variable-an-instance-field-an-input-par
 
 ### What is different between `Mockito.mock()` and `@Mock`?
 There are three different ways of creating mock objects.
@@ -41,6 +43,7 @@ Just use matcher during stubbing. But verification is a different story. If your
 - https://stackoverflow.com/questions/12295891/how-to-use-argumentcaptor-for-stubbing
 
 ### What is @InjectMocks?
+Inject mock or spy fields into tested object automatically.
 - https://www.baeldung.com/mockito-annotations#injectmocks-annotation
 - https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#21
 - https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/InjectMocks.html
