@@ -5,7 +5,7 @@
 - https://site.mockito.org/
 - https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
 
-### What is different between PowerMock and PowerMockito?
+### What is difference between PowerMock and PowerMockito?
 PowerMockito is a PowerMock's extension API to support Mockito. To use PowerMock you need to depend on Mockito + PowerMockito (or EasyMock + PowerMock) as well as a test framework. JUnit 4.x not 5.x is required to use PowerMock.
 - https://www.baeldung.com/intro-to-powermock
 - https://github.com/powermock/powermock/wiki/Getting-Started
@@ -81,7 +81,7 @@ This API allows us to take a more BDD friendly approach arranging our tests usin
 ### How do I mock for final class?
 - https://www.baeldung.com/mockito-final
 
-### What is different between mock, stub and spy?
+### What is difference between mock, stub and spy?
 - There is a difference in that the stub uses state verification while the mock uses behavior verification. Meszaros refers to stubs that use behavior verification as a Test Spy: https://martinfowler.com/articles/mocksArentStubs.html
 - When you use the spy then the real methods are called (unless a method was stubbed). Real spies should be used carefully and occasionally, for example when dealing with legacy code: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#spy
 
@@ -91,7 +91,7 @@ This API allows us to take a more BDD friendly approach arranging our tests usin
 - https://stackoverflow.com/questions/20671008/what-is-the-difference-between-a-local-variable-an-instance-field-an-input-par
 - https://github.com/powermock/powermock/wiki/MockConstructor
 
-### What is different between `Mockito.mock()` and `@Mock`?
+### What is difference between `Mockito.mock()` and `@Mock`?
 There are three different ways of creating mock objects.
 - https://www.baeldung.com/java-spring-mockito-mock-mockbean
 - If you want `@Mock`, then use `@ExtendWith(MockitoExtension.class)`:
