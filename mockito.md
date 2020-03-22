@@ -109,3 +109,23 @@ Inject mock or spy fields into tested object automatically.
 ### Where do I refer to matchers?
 - https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/ArgumentMatchers.html
 - https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/AdditionalMatchers.html
+
+### How do I test a method use `System.exit()`?
+For JUnit 5, refer to https://todd.ginsberg.com/post/testing-system-exit/ and below.
+```
+@Test
+@ExpectSystemExit
+public void testMain() {
+    main(new String[]{});
+}
+````
+````
+<dependency>
+    <groupId>com.ginsberg</groupId>
+    <artifactId>junit5-system-exit</artifactId>
+    <version>1.0.0</version>
+    <scope>test</scope>
+</dependency>
+```
+- JUnit 4: https://stefanbirkner.github.io/system-rules/
+- https://stackoverflow.com/questions/309396/java-how-to-test-methods-that-call-system-exit
