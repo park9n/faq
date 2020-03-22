@@ -93,7 +93,11 @@ This API allows us to take a more BDD friendly approach arranging our tests usin
 ### What is different between `Mockito.mock()` and `@Mock`?
 There are three different ways of creating mock objects.
 - https://www.baeldung.com/java-spring-mockito-mock-mockbean
-- If you want `@Mock`, then use `@ExtendWith(MockitoExtension.class)`: https://www.baeldung.com/mockito-junit-5-extension, https://stackoverflow.com/questions/40961057/how-to-use-mockito-with-junit5, https://stackoverflow.com/questions/55276555/when-to-use-runwith-and-when-extendwith
+- If you want `@Mock`, then use `@ExtendWith(MockitoExtension.class)`:
+  - https://www.baeldung.com/mockito-junit-5-extension
+  - https://stackoverflow.com/questions/40961057/how-to-use-mockito-with-junit5
+  - https://stackoverflow.com/questions/55276555/when-to-use-runwith-and-when-extendwith
+  - https://www.baeldung.com/junit-5-runwith
 
 ### What does it mean that "Warning: it is recommended to use ArgumentCaptor with verification but not with stubbing." in https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#15?
 Just use matcher during stubbing. But verification is a different story. If your test needs to ensure that this method was called with a specific argument, use ArgumentCaptor and this is the case for which it is designed.
