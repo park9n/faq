@@ -123,8 +123,8 @@ For JUnit 5, refer to https://todd.ginsberg.com/post/testing-system-exit/ and be
 public void testMain() {
     main(new String[]{});
 }
-````
-````
+```
+```
 <dependency>
     <groupId>com.ginsberg</groupId>
     <artifactId>junit5-system-exit</artifactId>
@@ -134,3 +134,13 @@ public void testMain() {
 ```
 - JUnit 4: https://stefanbirkner.github.io/system-rules/
 - https://stackoverflow.com/questions/309396/java-how-to-test-methods-that-call-system-exit
+
+### What do I write `@PrepareForTest()` for PowerMock?
+- https://stackoverflow.com/questions/56430071/what-does-preparefortest-in-powermock-really-mean
+- https://javadoc.io/doc/org.powermock/powermock-core/1.6.5/org/powermock/core/classloader/annotations/PrepareForTest.html
+- https://www.baeldung.com/intro-to-powermock
+
+### How do I mock singleton?
+- http://buckybits.blogspot.com/2011/11/testing-singletons-and-static-classes.html
+- https://www.baeldung.com/intro-to-powermock
+- https://github.com/powermock/powermock/wiki/mockito#mocking-static-method
