@@ -20,3 +20,7 @@ Yes, anonymous classes can implement interfaces.
 - https://stackoverflow.com/questions/4916735/default-constructor-vs-inline-field-initialization
 - https://stackoverflow.com/questions/35421411/java-constructor-vs-inline-field-initialisation
 - https://www.baeldung.com/java-initialization
+
+### What is difference between `InputStreamReader`, `FileReader` and `BufferedReader`?
+- https://www.baeldung.com/java-filereader
+- https://www.baeldung.com/java-buffered-reader
