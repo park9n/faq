@@ -29,3 +29,6 @@ Yes, anonymous classes can implement interfaces.
 https://medium.com/@tu7a1k23/what-is-lambda-expressions-and-how-is-it-used-in-java-2c687a161682
 https://medium.com/@wkrzywiec/what-was-added-to-java-8-lambda-expressions-7b2735efb287
 http://tutorials.jenkov.com/java/lambda-expressions.html
+
+### What do I setup logger?
+- https://www.baeldung.com/logback
