@@ -15,3 +15,55 @@
 ### How do I select dependency version?
 The Versions Maven Plugin is the de facto standard way to handle versions management nowadays.
 - https://www.baeldung.com/maven-dependency-latest-version
+
+### Should I write all core Maven plugins in a `build` element of the POM?
+No, you don't have to.
+- https://stackoverflow.com/questions/59557884/how-is-default-maven-plugin-version-decided
+- https://www.baeldung.com/core-maven-plugins
+- https://maven.apache.org/guides/mini/guide-configuring-plugins.html
+
+### How do I generate executable jar without `no main manifest attribute` issue or `java.lang.NoClassDefFoundError`?
+Simply use `maven-assembly-plugin` referring to http://maven.apache.org/plugins/maven-assembly-plugin/usage.html.
+- https://www.baeldung.com/executable-jar-with-maven
+- https://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven
+```
+<plugin>
+    <artifactId>maven-assembly-plugin</artifactId>
+    <version>3.2.0</version>
+    <configuration>
+        <archive>
+            <manifest>
+                <mainClass>com.samsung.tcm.tca.standalone.Main</mainClass>
+                <addDefaultImplementationEntries>
+                    true
+                </addDefaultImplementationEntries>
+            </manifest>
+        </archive>
+        <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
+    </configuration>
+    <executions>
+        <execution>
+            <id>make-assembly</id> <!-- this is used for inheritance merges -->
+            <phase>package</phase> <!-- bind to the packaging phase -->
+            <goals>
+                <goal>single</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+```
+
+### How do I get version information from POM?
+`Main.class.getPackage().getImplementationVersion()` reads `Implementation-Version` from META-INF/MANIFEST.MF.
+```
+Manifest-Version: 1.0
+Implementation-Title: tca-standalone
+Implementation-Version: 1.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Main-Class: com.samsung.tcm.tca.standalone.Main
+```
+Please add `<addDefaultImplementationEntries>true</addDefaultImplementationEntries>` into POM to save `Implementation-Version` into META-INF/MANIFEST.MF referring to the example for maven-assembly-plugin above.
+- https://stackoverflow.com/questions/3697449/retrieve-version-from-maven-pom-xml-in-code/41791885
