@@ -9,6 +9,9 @@
   - https://junit.org/junit5/docs/current/user-guide/#migrating-from-junit4-tips
   - https://junit.org/junit5/docs/snapshot/user-guide/#writing-tests-assertions-third-party
 
-### What do I use for mock?
+### What framework do I use for mock?
 - https://github.com/mockito/mockito/wiki/Mockito-vs-EasyMock
 - https://www.baeldung.com/mockito-vs-easymock-vs-jmockit
+
+### How do I configure JUnit 5 for Maven?
+- https://junit.org/junit5/docs/snapshot/user-guide/#running-tests-build-maven
