@@ -9,3 +9,18 @@ It is possible to then specify additional jobs and run them using the CircleCI A
 - https://circleci.com/docs/2.0/workflows/
 - https://circleci.com/blog/modernizing-federal-devops-circleci-becomes-first-continuous-integration-tool-with-fedramp-authorization/
 - https://circleci.com/docs/2.0/jobs-steps/
+
+### What is orbs?
+```
+version: 2.1
+
+orbs:
+  maven: circleci/maven@0.0.12
+
+workflows:
+  maven_test:
+    jobs:
+      - maven/test # checkout, build, test, and upload test results
+```
+- https://circleci.com/orbs/
+- https://circleci.com/orbs/registry/orb/circleci/maven
