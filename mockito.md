@@ -149,3 +149,6 @@ public void testMain() {
 Possible with PowerMock. But please don't do that.
 - https://stackoverflow.com/questions/17681708/mocking-files-in-java-mock-contents-mockito
 - https://stackoverflow.com/questions/16035365/is-it-possible-to-use-powermock-to-mock-new-file-creation
+
+### How do I mock a method in the same test class?
+- https://towardsdatascience.com/mocking-a-method-in-the-same-test-class-using-mockito-b8f997916109
