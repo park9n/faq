@@ -68,3 +68,15 @@ Main-Class: com.samsung.tcm.tca.standalone.Main
 Please add `<addDefaultImplementationEntries>true</addDefaultImplementationEntries>` into POM to save `Implementation-Version` into META-INF/MANIFEST.MF referring to the example for maven-assembly-plugin above.
 - https://stackoverflow.com/questions/3697449/retrieve-version-from-maven-pom-xml-in-code/41791885
 - https://github.com/remkop/picocli/issues/236
+
+### How do I use logger?
+Please add following dependency only. In addition to `logback-classic-1.2.3.jar`, this will pull `slf4j-api-1.7.28.jar` as well as `logback-core-1.2.3.jar` into your project. Please ensure that the version `slf4j-api` automatically pulled is under 1.8. If it is 1.8 or later, you meet http://www.slf4j.org/codes.html#noProviders.
+```
+<dependency> 
+  <groupId>ch.qos.logback</groupId>
+  <artifactId>logback-classic</artifactId>
+  <version>1.2.3</version>
+</dependency>
+```
+- http://www.slf4j.org/manual.html#projectDep
+- https://www.baeldung.com/logback
