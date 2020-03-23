@@ -69,7 +69,7 @@ Please add `<addDefaultImplementationEntries>true</addDefaultImplementationEntri
 - https://stackoverflow.com/questions/3697449/retrieve-version-from-maven-pom-xml-in-code/41791885
 - https://github.com/remkop/picocli/issues/236
 
-### How do I use logger?
+### How do I use logger (SLF4J + Logback)?
 Please add following dependency only. In addition to `logback-classic-1.2.3.jar`, this will pull `slf4j-api-1.7.28.jar` as well as `logback-core-1.2.3.jar` into your project. Please ensure that the version `slf4j-api` automatically pulled is under 1.8. If it is 1.8 or later, you meet http://www.slf4j.org/codes.html#noProviders.
 ```
 <dependency> 
@@ -80,3 +80,4 @@ Please add following dependency only. In addition to `logback-classic-1.2.3.jar`
 ```
 - http://www.slf4j.org/manual.html#projectDep
 - https://www.baeldung.com/logback
+- http://logback.qos.ch/reasonsToSwitch.html
