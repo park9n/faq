@@ -57,3 +57,6 @@ No, `git log` shows log until the current branch's HEAD if you don't add `--all`
 
 ### Can I merge branch-a into branch-b on branch-c without checkout branch-b?
 Impossible (because a working copy is needed to resolve any potential conflicts): https://stackoverflow.com/questions/3216360/merge-update-and-pull-git-branches-without-using-checkouts
+
+### How do I recover when I merged wrong branch by mistake?
+- https://stackoverflow.com/questions/19271058/git-merge-mistake
