@@ -53,10 +53,28 @@ No, `git log` shows log until the current branch's HEAD if you don't add `--all`
 - https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository
 
 ### How do I check merged branch?
-`git branch --merged`: https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
+`$ git branch --merged`: https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
+
+### How do I delete remote branch?
+`$ git push <remote_name> :<branch_name>`
+- https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
 
 ### Can I merge branch-a into branch-b on branch-c without checkout branch-b?
 Impossible (because a working copy is needed to resolve any potential conflicts): https://stackoverflow.com/questions/3216360/merge-update-and-pull-git-branches-without-using-checkouts
 
-### How do I recover when I merged wrong branch by mistake?
+### How do I recover when I merged wrong branch by mistake (e.g. upstream/release → master)?
+`$ git reset --hard upstream/master`
 - https://stackoverflow.com/questions/19271058/git-merge-mistake
+
+### How do I resolve merge conflict?
+- https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line
+
+### How do I undo `git reset`?
+`$ git reset HEAD@{1}`
+- https://stackoverflow.com/questions/2510276/how-to-undo-git-reset
+- https://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git
+- https://stackoverflow.com/questions/26785118/head-vs-head-vs-head-also-known-as-tilde-vs-caret-vs-at-sign/26785200
+
+### What is difference between squash and rebase?
+- https://stackoverflow.com/questions/2427238/in-git-what-is-the-difference-between-merge-squash-and-rebase
+- https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges
