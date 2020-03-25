@@ -91,5 +91,5 @@ Please add following dependency only. In addition to `logback-classic-1.2.3.jar`
 - https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 - https://www.baeldung.com/maven-integration-test
 
-### What is SNAPSHOT?
+### What is "SNAPSHOT" version?
 - https://maven.apache.org/guides/getting-started/index.html#What_is_a_SNAPSHOT_version
