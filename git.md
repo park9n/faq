@@ -54,6 +54,7 @@ No, `git log` shows log until the current branch's HEAD if you don't add `--all`
 
 ### How do I check merged branch?
 `$ git branch --merged`: https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
+- https://stackoverflow.com/questions/226976/how-can-i-know-if-a-branch-has-been-already-merged-into-master
 
 ### How do I delete remote branch?
 `$ git push <remote_name> :<branch_name>`
@@ -78,3 +79,7 @@ Impossible (because a working copy is needed to resolve any potential conflicts)
 ### What is difference between squash and rebase?
 - https://stackoverflow.com/questions/2427238/in-git-what-is-the-difference-between-merge-squash-and-rebase
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges
+
+### Why `git branch -d <branch>` says "not fully merged" although the commits were merged into master?
+- https://stackoverflow.com/questions/5412599/git-is-stating-a-branch-is-not-merged-after-rebasing-why
+- https://git-scm.com/book/en/v2/Git-Branching-Rebasing
