@@ -90,3 +90,6 @@ Please add following dependency only. In addition to `logback-classic-1.2.3.jar`
 - http://maven.apache.org/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html
 - https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 - https://www.baeldung.com/maven-integration-test
+
+### What is SNAPSHOT?
+- https://maven.apache.org/guides/getting-started/index.html#What_is_a_SNAPSHOT_version
