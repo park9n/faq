@@ -21,4 +21,5 @@ Hold down the `alt` key and click on the inverted caret icon in any file header.
 ### How can I add line comments for unchanged chunks?
 No, GitHub has an issue where you cannot leave comments on code outside of changed chunks.
 - https://stackoverflow.com/questions/38693355/add-comment-on-old-existing-code-in-github-pull-request
+- https://railsware.com/blog/pull-request-review-from-a-railsware-engineers-perspective/
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request
