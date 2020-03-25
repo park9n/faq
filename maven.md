@@ -81,3 +81,12 @@ Please add following dependency only. In addition to `logback-classic-1.2.3.jar`
 - http://www.slf4j.org/manual.html#projectDep
 - https://www.baeldung.com/logback
 - http://logback.qos.ch/reasonsToSwitch.html
+
+### What is `mvn integration-test`?
+- https://stackoverflow.com/questions/1399240/how-do-i-get-my-maven-integration-tests-to-run
+- https://blog.sonatype.com/2009/06/integration-tests-with-maven-part-1-failsafe-plugin/
+- http://maven.apache.org/surefire/maven-failsafe-plugin/index.html
+- http://maven.apache.org/surefire/maven-failsafe-plugin/usage.html
+- http://maven.apache.org/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html
+- https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+- https://www.baeldung.com/maven-integration-test
