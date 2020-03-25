@@ -17,3 +17,8 @@ Click the number of the first line in the range to highlight the line of code. T
 ### How do I collapse/expand all diffs in a PR at once?
 Hold down the `alt` key and click on the inverted caret icon in any file header.
 - https://github.blog/changelog/2018-08-17-collapse-all-diffs-in-a-pull-request-at-once/
+
+### How can I add line comments for unchanged chunks?
+No, GitHub has an issue where you cannot leave comments on code outside of changed chunks.
+- https://stackoverflow.com/questions/38693355/add-comment-on-old-existing-code-in-github-pull-request
+- https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request
