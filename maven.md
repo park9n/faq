@@ -96,6 +96,23 @@ Please add following dependency only. In addition to `logback-classic-1.2.3.jar`
 
 ### How do I avoid `logback.xml` conflict between the project and the external library?
 - Exclude `logback.xml` when packaging library: https://mkyong.com/maven/maven-exclude-logback-xml-in-jar-file/
+  - Need to add `maven-jar-plugin`: https://stackoverflow.com/questions/25351750/what-are-the-differences-between-maven-jar-plugin-and-maven-assembly-plugin
+```
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <version>3.2.0</version>
+    <configuration>
+        <excludes>
+            <exclude>**/logback.xml</exclude>
+        </excludes>
+    </configuration>
+</plugin>
+<plugin>
+    <artifactId>maven-assembly-plugin</artifactId>
+    <version>3.2.0</version>
+        :
+```
 - Exclude from the existing library: https://stackoverflow.com/questions/33897196/how-to-disable-inherited-logback
 
 ### What is difference between `<dependencies>` inside `<plugin>` and outside `<plugin>`?
