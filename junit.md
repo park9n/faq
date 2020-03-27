@@ -19,3 +19,6 @@
 ### Where do I refer to matchers?
 - http://hamcrest.org/JavaHamcrest/tutorial
 - http://hamcrest.org/JavaHamcrest/javadoc/2.2/
+
+### What is difference in assertions between JUnit 4 and JUnit 5?
+- https://www.baeldung.com/junit-assertions
