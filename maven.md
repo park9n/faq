@@ -93,3 +93,11 @@ Please add following dependency only. In addition to `logback-classic-1.2.3.jar`
 
 ### What is "SNAPSHOT" version?
 - https://maven.apache.org/guides/getting-started/index.html#What_is_a_SNAPSHOT_version
+
+### How do I avoid `logback.xml` conflict between the project and the external library?
+- Exclude `logback.xml` when packaging library: https://mkyong.com/maven/maven-exclude-logback-xml-in-jar-file/
+- Exclude from the existing library: https://stackoverflow.com/questions/33897196/how-to-disable-inherited-logback
+
+### What is difference between `<dependencies>` inside `<plugin>` and outside `<plugin>`?
+- https://stackoverflow.com/questions/24716142/maven-differences-between-dependencies-inside-plugin-and-outside
+- https://maven.apache.org/guides/mini/guide-configuring-plugins.html
