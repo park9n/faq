@@ -23,3 +23,9 @@ No, GitHub has an issue where you cannot leave comments on code outside of chang
 - https://stackoverflow.com/questions/38693355/add-comment-on-old-existing-code-in-github-pull-request
 - https://railsware.com/blog/pull-request-review-from-a-railsware-engineers-perspective/
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request
+
+### What is difference between "Create a merge commit", "Squash and merge" and "Rebase and merge"?
+- https://cloudfour.com/thinks/squashing-your-pull-requests/
+- https://stackoverflow.com/questions/2427238/in-git-what-is-the-difference-between-merge-squash-and-rebase
+- https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request
+- https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges
