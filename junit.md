@@ -22,3 +22,7 @@
 
 ### What is difference in assertions between JUnit 4 and JUnit 5?
 - https://www.baeldung.com/junit-assertions
+
+### How do I use temporary directory for test?
+- https://howtodoinjava.com/junit/junit-creating-temporary-filefolder-using-temporaryfolder-rule/
+- https://www.baeldung.com/junit-5-temporary-directory
