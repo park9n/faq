@@ -5,7 +5,8 @@
 - https://github.com/junit-team/junit4/wiki/Matchers-and-assertthat
 - Joe Walnes proposes `assertThat()` with hamcrest: https://joewalnes.com/2005/05/13/flexible-junit-assertions-with-assertthat/
 - http://hamcrest.org/JavaHamcrest/index
-- JUnit 4 supported `assertThat()` by itself, but now hamcrest has `assertThat()` instead of JUnit 5
+- JUnit 4 included hamcrest (`assertThat()` and matchers), but JUnit 5 doesn't include them:
+  - https://github.com/junit-team/junit4/wiki/Matchers-and-assertthat
   - https://junit.org/junit5/docs/current/user-guide/#migrating-from-junit4-tips
   - https://junit.org/junit5/docs/snapshot/user-guide/#writing-tests-assertions-third-party
 
