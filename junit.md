@@ -26,3 +26,23 @@
 ### How do I use temporary directory for test?
 - https://howtodoinjava.com/junit/junit-creating-temporary-filefolder-using-temporaryfolder-rule/
 - https://www.baeldung.com/junit-5-temporary-directory
+
+### How do I test a method use `System.exit()`?
+For JUnit 5, refer to https://todd.ginsberg.com/post/testing-system-exit/ and below.
+```
+@Test
+@ExpectSystemExit
+public void testMain() {
+    main(new String[]{});
+}
+```
+```
+<dependency>
+    <groupId>com.ginsberg</groupId>
+    <artifactId>junit5-system-exit</artifactId>
+    <version>1.0.0</version>
+    <scope>test</scope>
+</dependency>
+```
+- JUnit 4: https://stefanbirkner.github.io/system-rules/
+- https://stackoverflow.com/questions/309396/java-how-to-test-methods-that-call-system-exit
