@@ -47,7 +47,3 @@ http://tutorials.jenkov.com/java/lambda-expressions.html
 - https://stackoverflow.com/questions/10144210/java-jar-file-use-resource-errors-uri-is-not-hierarchical
 - https://stackoverflow.com/questions/793213/getting-the-inputstream-from-a-classpath-resource-xml-file
 - https://stackoverflow.com/questions/3891375/how-to-read-a-text-file-resource-into-java-unit-test
-
-### How do I use temporary directory for test?
-- https://howtodoinjava.com/junit/junit-creating-temporary-filefolder-using-temporaryfolder-rule/
-- https://www.baeldung.com/junit-5-temporary-directory
