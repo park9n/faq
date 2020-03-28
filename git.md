@@ -76,10 +76,6 @@ Impossible (because a working copy is needed to resolve any potential conflicts)
 - https://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git
 - https://stackoverflow.com/questions/26785118/head-vs-head-vs-head-also-known-as-tilde-vs-caret-vs-at-sign/26785200
 
-### What is difference between squash and rebase?
-- https://stackoverflow.com/questions/2427238/in-git-what-is-the-difference-between-merge-squash-and-rebase
-- https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges
-
 ### Why `git branch -d <branch>` says "not fully merged" although the commits were merged into master?
 - https://stackoverflow.com/questions/5412599/git-is-stating-a-branch-is-not-merged-after-rebasing-why
 - https://git-scm.com/book/en/v2/Git-Branching-Rebasing
