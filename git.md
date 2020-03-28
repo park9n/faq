@@ -79,3 +79,11 @@ Impossible (because a working copy is needed to resolve any potential conflicts)
 ### Why `git branch -d <branch>` says "not fully merged" although the commits were merged into master?
 - https://stackoverflow.com/questions/5412599/git-is-stating-a-branch-is-not-merged-after-rebasing-why
 - https://git-scm.com/book/en/v2/Git-Branching-Rebasing
+
+### Are pointless commits deleted automatically after `git branch -d <branch>` or `git reset`?
+If you delete a branch that has not been merged and commits become unreachable by any branch or tag, Git garbage collection will eventually remove the unreachable commits and free the associated space.
+- https://www.quora.com/When-you-delete-a-git-branch-is-information-actually-deleted-and-some-space-saved-in-the-repository
+- https://stackoverflow.com/questions/17929891/for-how-long-can-you-restore-recover-a-deleted-branch-on-github
+- https://help.github.com/en/github/administering-a-repository/deleting-and-restoring-branches-in-a-pull-request
+- https://git-scm.com/docs/git-gc#Documentation/git-gc.txt-gcreflogExpireUnreachable
+- https://feeding.cloud.geek.nz/posts/recovering-lost-git-commits/
