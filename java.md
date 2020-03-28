@@ -35,5 +35,14 @@ http://tutorials.jenkov.com/java/lambda-expressions.html
 - https://www.baeldung.com/logback
 - http://www.slf4j.org/manual.html
 
+### How do I copy file?
+- https://www.baeldung.com/java-copy-file
+
 ### Why should I use `getResourceAsStream()` instead of `getResource()` to read resource?
+- https://stackoverflow.com/questions/10308221/how-to-copy-file-inside-jar-to-outside-the-jar
 - https://stackoverflow.com/questions/20389255/reading-a-resource-file-from-within-jar
+- https://stackoverflow.com/questions/10144210/java-jar-file-use-resource-errors-uri-is-not-hierarchical
+
+### How do I use temporary directory for test?
+- https://howtodoinjava.com/junit/junit-creating-temporary-filefolder-using-temporaryfolder-rule/
+- https://www.baeldung.com/junit-5-temporary-directory
