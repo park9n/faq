@@ -57,3 +57,8 @@ Gist is a simple way to share snippets and pastes with others. All gists are git
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/committing-changes-to-a-pull-request-branch-created-from-a-fork
 - https://tighten.co/blog/adding-commits-to-a-pull-request
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/checking-out-pull-requests-locally
+
+### What is difference between "Add single comment" and "Start a review" → "Submit review" with "Comment"?
+Non-delayed vs. Delayed: if you click on add single comment, the comment will be made immediately. If you click on start a review, you’ll have the chance to write more comments before sending them at once.
+- https://zellwk.com/blog/edit-pull-request/
+- https://www.asmeurer.com/blog/posts/github-reviews-gripes/
