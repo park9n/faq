@@ -30,6 +30,18 @@ No, GitHub has an issue where you cannot leave comments on code outside of chang
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges
 
-### How to amend a commit on a Pull Request?
+### How to amend a commit on a PR?
 - https://www.burntfen.com/2015-10-30/how-to-amend-a-commit-on-a-github-pull-request
 - https://stackoverflow.com/questions/45626986/updating-pull-request-after-review-changes-commit-doesnt-show-up-in-the-pull-re
+
+### What is "GitHub Desktop"?
+- https://git-scm.com/downloads/guis
+- https://desktop.github.com/
+- https://github.com/desktop/desktop
+- https://github.com/desktop/desktop/blob/development/docs/process/what-is-desktop.md
+
+### What is "Gist"?
+Gist is a simple way to share snippets and pastes with others. All gists are git repositories, so they are automatically versioned, forkable and usable as a git repository.
+- https://robertgreiner.com/using-github-as-a-syntax-highlighter/
+- https://stackoverflow.com/questions/6767518/what-is-the-difference-between-github-and-gist
+- https://gist.github.com/
