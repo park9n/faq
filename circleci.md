@@ -24,3 +24,18 @@ workflows:
 ```
 - https://circleci.com/orbs/
 - https://circleci.com/orbs/registry/orb/circleci/maven
+
+### How do I find 
+- https://circleci.com/docs/2.0/circleci-images/
+
+### How do I find 
+- https://circleci.com/docs/2.0/configuration-reference/#steps
+- Check out source code: https://circleci.com/docs/2.0/configuration-reference/#checkout
+- Restores a previously saved cache: https://circleci.com/docs/2.0/configuration-reference/#restore_cache
+- Persist a temporary file to be used by another job in the workflow: https://circleci.com/docs/2.0/configuration-reference/#persist_to_workspace
+- Generates and stores a cache of a file or directory of files such as dependencies or source code in our object storage: https://circleci.com/docs/2.0/configuration-reference/#save_cache
+- Attach the workflow’s workspace to the current container: https://circleci.com/docs/2.0/configuration-reference/#attach_workspace
+- Upload and store test results for a build. Test results are visible on the CircleCI web application, under each build's "Test Summary" section: https://circleci.com/docs/2.0/configuration-reference/#store_test_results
+- Store artifacts (for example logs, binaries, etc) to be available in the web app or through the API: https://circleci.com/docs/2.0/configuration-reference/#store_artifacts
+- Used for orchestrating all jobs: https://circleci.com/docs/2.0/configuration-reference/#workflows
+- Defines rules for allowing/blocking execution of some branches: https://circleci.com/docs/2.0/configuration-reference/#branches
