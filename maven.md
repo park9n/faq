@@ -118,3 +118,36 @@ Please add following dependency only. In addition to `logback-classic-1.2.3.jar`
 ### What is difference between `<dependencies>` inside `<plugin>` and outside `<plugin>`?
 - https://stackoverflow.com/questions/24716142/maven-differences-between-dependencies-inside-plugin-and-outside
 - https://maven.apache.org/guides/mini/guide-configuring-plugins.html
+
+### How do I run Jacoco?
+```
+<plugin>
+    <groupId>org.jacoco</groupId>
+    <artifactId>jacoco-maven-plugin</artifactId>
+    <version>0.8.5</version>
+    <executions>
+        <execution>
+            <goals>
+                <goal>prepare-agent</goal> <!-- To generate "target/jacoco.exec" -->
+            </goals>
+        </execution>
+        <execution>
+            <id>post-unit-test</id>
+            <phase>test</phase> <!-- To generate report in "mvn test" -->
+            <goals>
+                <goal>report</goal>
+            </goals>
+        </execution>
+        <execution>
+            <id>report</id>
+            <phase>prepare-package</phase> <!-- To generate report "mvn package" -->
+            <goals>
+                <goal>report</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+```
+- https://www.baeldung.com/jacoco
+- https://www.jacoco.org/jacoco/trunk/doc/maven.html
+- https://sg-choi.tistory.com/122
