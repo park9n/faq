@@ -49,5 +49,6 @@ Gist is a simple way to share snippets and pastes with others. All gists are git
 ### How do I create "GitHub Pages"?
 - https://help.github.com/en/github/working-with-github-pages/getting-started-with-github-pages
 - https://github.com/pages-themes
+- https://jekyllthemes.io/
 - https://github.community/t5/How-to-use-Git-and-GitHub/Github-wiki-pages-vs-markdown-html-in-main-repository/td-p/2106
 - https://guides.github.com/features/wikis/
