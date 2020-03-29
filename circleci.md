@@ -56,3 +56,8 @@ No, workflows run only. If you are not using workflows, the jobs map must contai
 
 ### How do I execute job conditionally?
 - https://circleci.com/docs/2.0/configuration-reference/#ending-a-job-from-within-a-step
+- `command: '[[ ! -z "$CIRCLE_PR_NUMBER" || "$CIRCLE_PROJECT_REPONAME" != "tca-standalone" || "$CIRCLE_PROJECT_USERNAME" != "RS-TCM" ]] && circleci step halt || true'`
+  - https://stackoverflow.com/questions/669452/is-double-square-brackets-preferable-over-single-square-brackets-in-ba
+  - https://stackoverflow.com/questions/5594039/z-option-inside-if-condition-in-shell-script
+  - https://stackoverflow.com/questions/2953646/how-can-i-declare-and-use-boolean-variables-in-a-shell-script
+  - http://tldp.org/LDP/abs/html/comparison-ops.html
