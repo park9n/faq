@@ -45,3 +45,14 @@ No, workflows run only. If you are not using workflows, the jobs map must contai
 - Execute Workflows for a Git Tag: https://circleci.com/docs/2.0/configuration-reference/#tags
   - https://circleci.com/docs/2.0/workflows/#executing-workflows-for-a-git-tag
   - Semantic Versioning: https://semver.org/ and https://en.wikipedia.org/wiki/Software_versioning
+
+### How do I automate GitHub release?
+- https://circleci.com/blog/publishing-to-github-releases-via-circleci/
+- Set private environment variable (e.g. `GITHUB_TOKEN`): https://circleci.com/docs/2.0/env-vars/#setting-an-environment-variable-in-a-project
+- https://github.com/tcnksm/ghr
+
+### How do I configure maven builds?
+- https://circleci.com/blog/optimizing-maven-builds-on-circleci/
+
+### How do I execute job conditionally?
+- https://circleci.com/docs/2.0/configuration-reference/#ending-a-job-from-within-a-step
