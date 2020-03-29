@@ -29,3 +29,7 @@ No, GitHub has an issue where you cannot leave comments on code outside of chang
 - https://stackoverflow.com/questions/2427238/in-git-what-is-the-difference-between-merge-squash-and-rebase
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges
+
+### How to amend a commit on a Pull Request?
+- https://www.burntfen.com/2015-10-30/how-to-amend-a-commit-on-a-github-pull-request
+- https://stackoverflow.com/questions/45626986/updating-pull-request-after-review-changes-commit-doesnt-show-up-in-the-pull-re
