@@ -151,3 +151,12 @@ Please add following dependency only. In addition to `logback-classic-1.2.3.jar`
 - https://www.baeldung.com/jacoco
 - https://www.jacoco.org/jacoco/trunk/doc/maven.html
 - https://sg-choi.tistory.com/122
+
+### What is `<repositories>`?
+By default Maven searches the central repository at https://repo.maven.apache.org/maven2/. Additional repositories can be configured in the pom.xml `repositories` element.
+- http://maven.apache.org/pom.html#Repositories
+
+### What is `<distributionManagement>`?
+It manages the distribution of the artifact and supporting files generated throughout the build process.
+- http://maven.apache.org/pom.html#Distribution_Management
+- https://www.baeldung.com/maven-deploy-nexus
