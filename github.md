@@ -63,6 +63,6 @@ Non-delayed vs. Delayed: if you click on add single comment, the comment will be
 - https://zellwk.com/blog/edit-pull-request/
 - https://www.asmeurer.com/blog/posts/github-reviews-gripes/
 
-### Is there limit?
+### Is there a limit?
 100MB for individual files, 1GB for each repositories, 100GB for all repositories.
 - https://help.github.com/en/github/managing-large-files/what-is-my-disk-quota#file-and-repository-size-limitations
