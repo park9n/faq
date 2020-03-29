@@ -64,8 +64,10 @@ No, `git log` shows log until the current branch's HEAD if you don't add `--all`
 Impossible (because a working copy is needed to resolve any potential conflicts): https://stackoverflow.com/questions/3216360/merge-update-and-pull-git-branches-without-using-checkouts
 
 ### How do I recover when I merged wrong branch by mistake (e.g. upstream/release → master)?
-`$ git reset --hard upstream/master`
+`$ git reset --hard upstream/master` or `$ git merge --abort`
 - https://stackoverflow.com/questions/19271058/git-merge-mistake
+- https://stackoverflow.com/questions/101752/i-ran-into-a-merge-conflict-how-can-i-abort-the-merge
+- https://www.git-scm.com/docs/git-merge/1.7.4#git-merge---abort
 
 ### How do I resolve merge conflict?
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line
