@@ -56,3 +56,4 @@ Gist is a simple way to share snippets and pastes with others. All gists are git
 ### Is it possible to add commit to someone else's PR?
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/committing-changes-to-a-pull-request-branch-created-from-a-fork
 - https://tighten.co/blog/adding-commits-to-a-pull-request
+- https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/checking-out-pull-requests-locally
