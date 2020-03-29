@@ -62,3 +62,7 @@ Gist is a simple way to share snippets and pastes with others. All gists are git
 Non-delayed vs. Delayed: if you click on add single comment, the comment will be made immediately. If you click on start a review, you’ll have the chance to write more comments before sending them at once.
 - https://zellwk.com/blog/edit-pull-request/
 - https://www.asmeurer.com/blog/posts/github-reviews-gripes/
+
+### Is there limit?
+100MB for individual files, 1GB for each repositories, 100GB for all repositories.
+- https://help.github.com/en/github/managing-large-files/what-is-my-disk-quota#file-and-repository-size-limitations
