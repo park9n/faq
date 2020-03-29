@@ -52,3 +52,7 @@ Gist is a simple way to share snippets and pastes with others. All gists are git
 - https://jekyllthemes.io/
 - https://github.community/t5/How-to-use-Git-and-GitHub/Github-wiki-pages-vs-markdown-html-in-main-repository/td-p/2106
 - https://guides.github.com/features/wikis/
+
+### Is it possible to add commit to someone else's PR?
+- https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/committing-changes-to-a-pull-request-branch-created-from-a-fork
+- https://tighten.co/blog/adding-commits-to-a-pull-request
