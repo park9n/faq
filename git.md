@@ -76,6 +76,11 @@ Impossible (because a working copy is needed to resolve any potential conflicts)
 - https://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git
 - https://stackoverflow.com/questions/26785118/head-vs-head-vs-head-also-known-as-tilde-vs-caret-vs-at-sign/26785200
 
+### How do I undo `git add`?
+`$ git reset HEAD` or `$ git reset`
+- https://stackoverflow.com/questions/348170/how-do-i-undo-git-add-before-commit
+- https://git-scm.com/docs/git-reset
+
 ### Why `git branch -d <branch>` says "not fully merged" although the commits were merged into master?
 - https://stackoverflow.com/questions/5412599/git-is-stating-a-branch-is-not-merged-after-rebasing-why
 - https://git-scm.com/book/en/v2/Git-Branching-Rebasing
@@ -87,3 +92,8 @@ If you delete a branch that has not been merged and commits become unreachable b
 - https://help.github.com/en/github/administering-a-repository/deleting-and-restoring-branches-in-a-pull-request
 - https://git-scm.com/docs/git-gc#Documentation/git-gc.txt-gcreflogExpireUnreachable
 - https://feeding.cloud.geek.nz/posts/recovering-lost-git-commits/
+
+### What is `^` (caret), `~` (tilde), `..` and `...`?
+- https://backlog.com/git-tutorial/using-branches/git-switch-branches/
+- https://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git
+- https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection
