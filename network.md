@@ -13,7 +13,7 @@
   - RAN : 무선과 관련된 모든 기능을 담당
     - eNBs (evolved Node-B, 기지국) : 논리적인 노드, 한 개 셀 혹은 여러 개 셀의 모든 무선 관련된 기능들을 담당, EPC와 연결 (https://en.wikipedia.org/wiki/ENodeB)
       - OAM (Operations, Administration and Management) : https://en.wikipedia.org/wiki/Operations,_administration_and_management
-      - CPS (Call Processing Software)
+      - CPS (Call Processing System)
         - ECB (Control Subsystem) :
         - EDB (Data Subsystem) :
 - UE (User Equipment) ↔ eNB ↔ EPC
@@ -24,6 +24,7 @@
 - LSM (LTE System Manager)
 - NMS (Network Management System, 망 관리 시스템) : 장애 관리 및 운용 관리를 위한 장비
 - DSP + System S/W (OAM + CALL) = DU
+- DSP : https://en.wikipedia.org/wiki/Digital_signal_processing
 - KDDI : Japanese telecommunications operator https://www.kddi.com/english/
   - Japan’s mobile market is dominated by three major operators – NTT DoCoMo, KDDI and Softbank Mobile.
   - https://www.google.co.kr/search?newwindow=1&hl=en&sxsrf=ALeKk00dBh3Qdyl3L0CR7fNsWORqetFfAw%3A1585575987648&ei=M_iBXt2NJ5r6wQO0t4CgAQ&q=Japanese+Telecommunications+Companies&oq=Japanese+Telecommunications+Companies&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIFCAAQzQI6BAgAEEc6BwgjELACECdQ0_8CWKejA2DxpgNoAHABeACAAZkBiAHoBZIBAzAuNZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwid84fsqsLoAhUafXAKHbQbABQQ4dUDCAs&uact=5
