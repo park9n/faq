@@ -22,3 +22,8 @@ Add tests. Get familiar with the code by "scratch refactoring".
 - https://understandlegacycode.com/blog/key-points-of-working-effectively-with-legacy-code/
 - https://dzone.com/articles/lets-deal-with-legacy-code
 - https://www.freecodecamp.org/news/conquer-legacy-code-f9e23a6ab758/
+
+### What is "Read the Docs"?
+- Sphinx: Tool - https://www.sphinx-doc.org
+- Read the Docs: Host - https://readthedocs.org/
+- https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
