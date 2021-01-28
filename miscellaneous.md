@@ -10,6 +10,9 @@
 ### What is "Eating your own dog food" or "dogfooding"?
 Practice of an organization using its own product: https://en.wikipedia.org/wiki/Eating_your_own_dog_food
 
+### What is "Syntactic sugar"?
+Syntax within a programming language that is designed to make things easier to read or to express: https://en.wikipedia.org/wiki/Syntactic_sugar
+
 ### How can I test a class that has file operation?
 Just use actual file with TemporaryFolder as "integration test". Don't mock a type you don't own! (e.g. `BufferedReader`). Your unit tests should only be concerned with how that class works with the content of the file, not the various conditions surrounding the connection. Can I refactor it under single-responsibility principle?
 - https://stackoverflow.com/questions/17163484/mockito-mocking-behaviour-of-a-file/17164103
