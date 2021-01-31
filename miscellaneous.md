@@ -7,6 +7,10 @@
 - https://stackoverflow.com/questions/1545080/c-code-file-extension-cc-vs-cpp/1545085
 - https://stackoverflow.com/questions/18590135/what-is-the-difference-between-cc-and-cpp-file-suffix
 
+### What is difference between repair and fix?
+Repairing is pretty much limited to putting things back to the way they were or restoring them to usefulness. Fixing often goes beyond that to include modifications or improvements.
+- https://www.quora.com/What-is-the-difference-between-repair-and-fix
+
 ### What is "Eating your own dog food" or "dogfooding"?
 Practice of an organization using its own product: https://en.wikipedia.org/wiki/Eating_your_own_dog_food
 
