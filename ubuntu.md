@@ -2,8 +2,11 @@
 
 ### How do I install Ubuntu 20.04.2 LTS?
 - Select "Minimal installation" and install.
-- (For VirtualBox full screen) `sudo apt-get install build-essential gcc make perl dkms`
+- (For VirtualBox full screen) `$ sudo apt-get install build-essential gcc make perl dkms`
 - (For VirtualBox full screen) Reboot and install "VirtualBox Guest Additions".
+- (For venv) `$ sudo apt install python3-venv`
+- (For venv) `$ python3 -m venv tutorial-env` (https://docs.python.org/3/tutorial/venv.html)
+- (For venv) `$ source tutorial-env/bin/activate` (https://docs.python.org/3/tutorial/venv.html)
 
 ### How do I list files 'owned' by package(s)?
 ```
@@ -17,8 +20,7 @@ $ dpkg-query -L libgtest-dev
 - https://askubuntu.com/questions/537717/how-to-append-arguments-to-launch-an-application-with-specific-parameters-from-u
 
 ### How do I install Visual Studio Code?
-- `sudo snap install --classic code`
-- https://code.visualstudio.com/docs/setup/linux#_snap
+- `$ sudo apt install ./<file>.deb` (https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
 - Execute: `$ code`
 
 ### What is POSIX?
