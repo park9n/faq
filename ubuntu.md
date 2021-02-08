@@ -12,8 +12,8 @@ $ dpkg-query -L libgtest-dev
 - https://askubuntu.com/questions/537717/how-to-append-arguments-to-launch-an-application-with-specific-parameters-from-u
 
 ### How do I install Visual Studio Code?
-- Download: https://code.visualstudio.com/
-- Install: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
+- `sudo snap install --classic code`
+- https://code.visualstudio.com/docs/setup/linux#_snap
 - Execute: `$ code`
 
 ### What is POSIX?
