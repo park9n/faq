@@ -4,6 +4,8 @@
 - Select "Minimal installation" and install.
 - (For VirtualBox full screen) `$ sudo apt-get install build-essential gcc make perl dkms`
 - (For VirtualBox full screen) Reboot and install "VirtualBox Guest Additions".
+- (For git) `$ ssh-keygen`
+- (For git) `$ sudo apt install git-all` (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - (For venv) `$ sudo apt install python3-venv`
 - (For venv) `$ python3 -m venv tutorial-env` (https://docs.python.org/3/tutorial/venv.html)
 - (For venv) `$ source tutorial-env/bin/activate` (https://docs.python.org/3/tutorial/venv.html)
