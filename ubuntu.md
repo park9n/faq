@@ -1,5 +1,10 @@
 ## Category
 
+### How do I install Ubuntu 20.04.2 LTS?
+- Select "Minimal installation" and install.
+- (For VirtualBox full screen) `sudo apt-get install build-essential gcc make perl dkms`
+- (For VirtualBox full screen) Reboot and install "VirtualBox Guest Additions".
+
 ### How do I list files 'owned' by package(s)?
 ```
 $ apt list --installed | grep "gtest"
