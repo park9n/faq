@@ -8,8 +8,11 @@
 - (For git) `$ ssh-keygen -t ed25519 -C "your_email@example.com"` (https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and add new SSH key to my GitHub account.
 - (For git) `$ sudo apt install git-all` (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and configure `user.name`, `user.email`.
 - (For venv) `$ sudo apt install python3-venv`
-- (For venv) `$ python3 -m venv tutorial-env` (https://docs.python.org/3/tutorial/venv.html)
+- (For venv) `$ python3 -m venv --system-site-packages tutorial-env` (https://docs.python.org/3/tutorial/venv.html)
+  - `--system-site-packages` requires for pylint installation in Visual Studio Code.
 - (For venv) `$ source tutorial-env/bin/activate` (https://docs.python.org/3/tutorial/venv.html)
+- (For pylint in Visual Studio Code) `(tutorial-env) $ pip install wheel`
+- Follow https://code.visualstudio.com/docs/python/python-tutorial
 
 ### How do I list files 'owned' by package(s)?
 ```
