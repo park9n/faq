@@ -34,3 +34,7 @@ Add tests. Get familiar with the code by "scratch refactoring".
 - Sphinx: Tool - https://www.sphinx-doc.org
 - Read the Docs: Host - https://readthedocs.org/
 - https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+
+### What is difference between Declarative programming and Imperative programming?
+- Declarative programming: Programming paradigm that expresses the logic of a computation without describing its control flow; focuses on **what** the program should accomplish without specifying how the program should achieve the result
+- Imperative programming: Programming paradigm that uses statements that change a program's state; focuses on describing **how** a program operates
