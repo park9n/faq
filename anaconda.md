@@ -12,11 +12,11 @@
   - Why 32-bit? https://corytips.tistory.com/206
   - Why anaconda? https://lazyblue.tistory.com/9
 ```
-(base) $ set CONDA_FORCE_32BIT=1
-(base) $ conda create -n kiwoom python=3.7.9 anaconda
+(base) > set CONDA_FORCE_32BIT=1
+(base) > conda create -n kiwoom python=3.7.9 anaconda
 ```
-- Open Visual Studio Code with "관리자 권한으로 실행" and select environment.
+- Open Visual Studio Code with "관리자 권한으로 실행" and select `kiwoom` environment.
 - Install `pykiwoom` (https://github.com/sharebook-kr/pykiwoom)
 ```
-(kiwoom) $ pip install -U pykiwoom
+(kiwoom) > pip install -U pykiwoom
 ```
