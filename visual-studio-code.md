@@ -12,7 +12,7 @@
 - Change style: https://stackoverflow.com/questions/45823734/vs-code-formatting-for
 
 ### Why couldn't I find "Terminal: Select Default Shell" in Command Palette?
-- Changed to "Terminal: Select Default Profile" from 1.56 (https://code.visualstudio.com/updates/v1_56#_terminal). However this update reproduce old syntax error (https://stackoverflow.com/questions/56456924/ampersand-syntax-error-running-any-python-script-in-vscode) by adding "&" to the head of commands. Unfortunately I downloaded 1.56 and wasted Saturday (2021-05-08) due to this issue. Simply use 1.55 (https://code.visualstudio.com/updates/v1_55) until fixed.
+- Changed to "Terminal: Select Default Profile" from 1.56 (https://code.visualstudio.com/updates/v1_56#_terminal). However this update reproduce old syntax error (https://stackoverflow.com/questions/56456924/ampersand-syntax-error-running-any-python-script-in-vscode) by adding "&" to the head of commands. Unfortunately I downloaded 1.56 and wasted Saturday (2021-05-08) due to this issue. Simply use 1.55 (https://code.visualstudio.com/updates/v1_55) until fixed. Set "Terminal: Select Default Shell" as "Command Prompt".
 
 ### How do I setup for Python?
 - https://code.visualstudio.com/docs/python/python-tutorial
