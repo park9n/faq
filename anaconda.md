@@ -15,7 +15,7 @@
 (base) > set CONDA_FORCE_32BIT=1
 (base) > conda create -n kiwoom python=3.7.9 anaconda
 ```
-- Open Visual Studio Code with "관리자 권한으로 실행" and select `kiwoom` environment.
+- Open Visual Studio Code with "관리자 권한으로 실행" and select `kiwoom` interpreter.
 - Install `pykiwoom` (https://github.com/sharebook-kr/pykiwoom)
 ```
 (kiwoom) > pip install -U pykiwoom
