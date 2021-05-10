@@ -19,6 +19,6 @@
 ```
 (kiwoom) > pip install -U pykiwoom
 ```
-> :bangbang: **"AhnLab Safe Transaction" cause the error ("Python의 작동이 중지되었습니다.") whenever `pykiwoom` is terminated.**
+> :bangbang: **"AhnLab Safe Transaction" cause the error ("Python의 작동이 중지되었습니다.") whenever `pykiwoom` is terminated.** I wasted Sunday (2021-05-09) due to this issue. Refer to https://github.com/park9n/faq/blob/master/visual-studio-code.md#why-couldnt-i-find-terminal-select-default-shell-in-command-palette.
 
 ![Python의 작동이 중지되었습니다.](https://github.com/park9n/faq/blob/master/images/python.png)
