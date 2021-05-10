@@ -19,8 +19,12 @@
 - Open Folder → New Terminal (`python -m venv .venv`) → New File (`hello.py`) → Install Python extension (Interpreter is updated to `.venv`) → Run Python File in Terminal
 
 ### How do I setup for both of Python 32-bit (automated trading) and Python 64-bit (machine learning)?
-- Simply install Anaconda 64-bit (https://corytips.tistory.com/206) and create 32-bit environment if need be.
+- Simply install Anaconda 64-bit (https://corytips.tistory.com/206) and create 32-bit environment if need be. Refer to https://github.com/park9n/faq/blob/master/anaconda.md#how-do-i-setup-pykiwoom-environment.
 ```
 set CONDA_FORCE_32BIT=1
 conda create -n py37_32 python=3.7.9 anaconda
 ```
+
+### What should I delete after uninstall?
+- C:\Users\cspark\.vscode
+- C:\Users\cspark\AppData\Roaming\Code
