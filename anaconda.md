@@ -19,4 +19,6 @@
 ```
 (kiwoom) > pip install -U pykiwoom
 ```
-- "AhnLab Safe Transaction" cause error "Python의 작동이 중지되었습니다." 
+> :bangbang: **"AhnLab Safe Transaction" cause the error ("Python의 작동이 중지되었습니다.") whenever `pykiwoom` is terminated.**
+
+![Python의 작동이 중지되었습니다.](https://github.com/park9n/faq/blob/master/images/python.png)
