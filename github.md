@@ -34,6 +34,9 @@ No, GitHub has an issue where you cannot leave comments on code outside of chang
 - https://www.burntfen.com/2015-10-30/how-to-amend-a-commit-on-a-github-pull-request
 - https://stackoverflow.com/questions/45626986/updating-pull-request-after-review-changes-commit-doesnt-show-up-in-the-pull-re
 
+### How to add existing project to GitHub?
+- https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+
 ### What is "GitHub Desktop"?
 - https://git-scm.com/downloads/guis
 - https://desktop.github.com/
