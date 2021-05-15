@@ -34,3 +34,7 @@
 ### How can I remove environment completely?
 - https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#removing-an-environment
 - https://stackoverflow.com/questions/58736579/conda-unable-to-completely-delete-environment
+- https://github.com/conda/conda/issues/201
+
+### Which version is selected if I use `conda create -n py37 python=3.7` instead of `conda create -n py37 python=3.7.9`?
+- /// (Can't find answer)
