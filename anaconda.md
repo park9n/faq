@@ -22,3 +22,15 @@
 > :bangbang: **"AhnLab Safe Transaction" cause the error ("Python의 작동이 중지되었습니다.") whenever `pykiwoom` is terminated.** I wasted Sunday (2021-05-09) due to this issue. Refer to https://github.com/park9n/faq/blob/master/visual-studio-code.md#why-couldnt-i-find-terminal-select-default-shell-in-command-palette.
 
 ![Python의 작동이 중지되었습니다.](https://github.com/park9n/faq/blob/master/images/python.png)
+
+### Where is `conda`'s default channel?
+- Channels are locations where Navigator and conda look for packages: https://docs.anaconda.com/anaconda/navigator/tutorials/manage-channels/
+- https://docs.anaconda.com/anaconda/user-guide/tasks/using-repositories/
+
+### When can I use `pip` in a `conda` environment?
+- https://www.anaconda.com/blog/using-pip-in-a-conda-environment
+- https://docs.conda.io/projects/conda/en/master/user-guide/tasks/manage-environments.html#using-pip-in-an-environment
+
+### How can I remove environment completely?
+- https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#removing-an-environment
+- https://stackoverflow.com/questions/58736579/conda-unable-to-completely-delete-environment
