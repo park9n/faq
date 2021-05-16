@@ -58,6 +58,3 @@ Traceback (most recent call last):
     os.remove(self.notary.db_file)
 PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'C:\\Users\\cspark\\AppData\\Roaming\\jupyter\\nbsignatures.db'
 ```
-
-### Why does `.ipynb` file look blurry?
-- No idea yet.
