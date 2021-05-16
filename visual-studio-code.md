@@ -32,8 +32,9 @@ conda create -n py37_32 python=3.7.9 anaconda
 ### How can I speed up?
 - https://oozou.com/blog/6-tips-to-improve-your-coding-speed-lazy-edition-89
 
-
 ### Why does `.ipynb` file look blurry in Visual Studio Code?
-- https://code.visualstudio.com/docs/python/jupyter-support
-- https://code.visualstudio.com/docs/python/jupyter-support-py
 - No idea yet.
+- Native Notebook: https://code.visualstudio.com/docs/python/jupyter-support
+- With `.py`: https://code.visualstudio.com/docs/python/jupyter-support-py
+- https://towardsdatascience.com/vscode-jupyter-notebooks-are-getting-an-upgrade-cc9aaaefc744
+- https://devblogs.microsoft.com/python/notebooks-are-getting-revamped/
