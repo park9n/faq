@@ -28,3 +28,6 @@ conda create -n py37_32 python=3.7.9 anaconda
 ### What should I delete after uninstall?
 - C:\Users\cspark\.vscode
 - C:\Users\cspark\AppData\Roaming\Code
+
+### How can I speed up?
+- https://oozou.com/blog/6-tips-to-improve-your-coding-speed-lazy-edition-89
